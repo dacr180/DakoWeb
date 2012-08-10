@@ -1,0 +1,13 @@
+window.HomeView = Backbone.View.extend({
+
+    initialize:function () {
+        console.log('Initializing Home View');
+alert("no");
+    },
+
+    render:function () {
+        $(this.el).html(this.template());
+        return this;
+    },
+
+});
